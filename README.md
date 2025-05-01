@@ -1,34 +1,27 @@
-# Notes App Fullstack 📝🚀
+# 🎯 Notes App - Project Pertama Monorepo Fullstack Saya
 
-Sebuah aplikasi catatan lengkap dengan:
-- **Backend**: REST API menggunakan Hapi.js (Node.js)
-- **Frontend**: Antarmuka modern dengan React.js
-- Fitur CRUD lengkap (Create, Read, Update, Delete)
-- Sistem penyimpanan catatan sederhana
+**Aplikasi catatan fullstack pertama saya** yang mengimplementasikan:  
+✅ Konsep monorepo (backend + frontend dalam 1 repo)  
+✅ Arsitektur fullstack modern  
+✅ Integrasi React (frontend) + Hapi.js (backend)  
 
-## 🛠 Tech Stack
-| Bagian       | Teknologi           |
-|--------------|---------------------|
-| **Backend**  | Hapi.js, Node.js    |
-| **Frontend** | React, Tailwind CSS |
-| **Tools**    | Git, NPM, ESLint    |
+## 🌟 Highlights
+✨ **Pengalaman Belajar**:  
+- Monorepo pertama saya dengan struktur terorganisir  
+- Integrasi API pertama antara React dan Hapi.js  
+- Implementasi clean code di kedua sisi  
 
-## ✨ Fitur
-✔️ Buat, edit, hapus catatan  
-✔️ Sistem tag untuk organisasi catatan  
-✔️ Antarmuka responsive (mobile & desktop)  
-✔️ API RESTful dengan endpoint terstruktur  
-✔️ Validasi input di frontend & backend  
+## 🛠 Stack Teknologi
+| Bagian       | Teknologi           | Keterangan                     |
+|--------------|---------------------|--------------------------------|
+| **Backend**  | Hapi.js, Node.js    | REST API dengan routing modular|
+| **Frontend** | React, Tailwind CSS | UI responsive + modern         |
+| **Tools**    | Git, NPM           | Manajemen monorepo sederhana   |
 
-## 📁 Struktur Proyek
+## 🚀 Cara Menjalankan
+```bash
+# Backend (Hapi.js)
+cd backend && npm install && npm start
 
-notes-app-fullstack/
-├── backend/       # Hapi.js API
-│   ├── src/
-│   ├── package.json
-│
-├── frontend/      # React App
-│   ├── src/
-│   ├── package.json
-│
-└── README.md
+# Frontend (React)
+cd frontend && npm install && npm start
